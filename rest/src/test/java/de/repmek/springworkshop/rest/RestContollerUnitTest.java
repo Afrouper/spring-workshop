@@ -2,14 +2,12 @@ package de.repmek.springworkshop.rest;
 
 import de.repmek.springworkshop.rest.vo.Person;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class RestContollerUnitTest {
 
-    private RestContoller restContoller = new RestContoller();
+    private final RestContoller restContoller = new RestContoller();
 
     @Test
     void sayHello() {

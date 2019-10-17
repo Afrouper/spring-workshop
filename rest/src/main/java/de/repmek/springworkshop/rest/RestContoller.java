@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestContoller {
 
-    private static final Logger log = LoggerFactory.getLogger(RestContoller.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(RestContoller.class);
 
     @GetMapping(path = "/hello/{name}/{age}")
     public Person sayHello(@PathVariable("name") String name, @PathVariable("age") int age) {
+        LOGGER.debug("Method sayHello called with name {} and age {}", name, age);
         return new Person(name, age);
     }
 }
