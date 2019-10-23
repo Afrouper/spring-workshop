@@ -16,6 +16,7 @@
 		<module>resources</module>
 		<module>validation</module>
 		<module>schedule</module>
+		<module>scopes</module>
 	</modules>
 
 </project>
