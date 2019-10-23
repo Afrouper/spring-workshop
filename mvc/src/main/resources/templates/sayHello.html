@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Say Hello Testpage</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="js/sayHello.js"></script>
+</head>
+<body>
+<p th:text="'Hallo, ' + ${name} + '!'" />
+<p>
+    <input type="text" id="vorname" th:value="'' + ${name} + ''">
+    <input type="text" id="name" value="Meier">
+    <button onclick="createCalledName()">CreateName</button>
+    <input type="text" id="calledName">
+</p>
+</body>
+</html>

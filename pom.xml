@@ -18,6 +18,7 @@
 		<module>schedule</module>
 		<module>scopes</module>
 		<module>classpathscanner</module>
+		<module>mvc</module>
 	</modules>
 
 </project>
