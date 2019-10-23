@@ -42,13 +42,12 @@ public class RestServer {
 
     private ApiInfo apiInfo() {
         ApiInfoBuilder apiInfoBuilder = new ApiInfoBuilder();
-        ApiInfo apiInfo = apiInfoBuilder.title("REST Server API")
+        return apiInfoBuilder.title("REST Server API")
                 .description("Workshop example of API documentation with swagger")
                 .version("1.0.0")
                 .contact(new Contact("John Doe", "http://example.com", "john.doe@example.com"))
                 .license("APACHE LICENSE, VERSION 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
                 .build();
-        return apiInfo;
     }
 }
