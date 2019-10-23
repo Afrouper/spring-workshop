@@ -15,6 +15,7 @@
 		<module>rest</module>
 		<module>resources</module>
 		<module>validation</module>
+		<module>schedule</module>
 	</modules>
 
 </project>
