@@ -17,6 +17,7 @@
 		<module>validation</module>
 		<module>schedule</module>
 		<module>scopes</module>
+		<module>classpathscanner</module>
 	</modules>
 
 </project>
