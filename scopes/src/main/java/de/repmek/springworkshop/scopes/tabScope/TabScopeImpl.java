@@ -1,12 +1,10 @@
 package de.repmek.springworkshop.scopes.tabScope;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.lang.Nullable;
 import org.springframework.web.context.request.SessionScope;
 
-import javax.servlet.http.HttpServletRequest;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 

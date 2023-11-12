@@ -1,15 +1,13 @@
 package de.repmek.springworkshop.scopes;
 
 import de.repmek.springworkshop.scopes.tabScope.TabScopeImpl;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.config.CustomScopeConfigurer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import javax.servlet.http.HttpServletRequest;
 
 @SpringBootApplication
 public class ScopeApplication {
