@@ -25,6 +25,7 @@
 		<module>classpathscanner</module>
 		<module>mvc</module>
 		<module>annotations</module>
-	</modules>
+        <module>restClient</module>
+    </modules>
 
 </project>
