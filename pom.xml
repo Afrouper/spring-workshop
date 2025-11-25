@@ -27,5 +27,4 @@
 		<module>annotations</module>
         <module>restClient</module>
     </modules>
-
 </project>
