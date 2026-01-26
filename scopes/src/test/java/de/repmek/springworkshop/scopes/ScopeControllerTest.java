@@ -1,9 +1,9 @@
 package de.repmek.springworkshop.scopes;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
+import tools.jackson.databind.ObjectMapper;
 
 import java.net.CookieManager;
 import java.net.URI;
@@ -22,7 +22,7 @@ class ScopeControllerTest {
     @LocalServerPort
     private int port;
 
-    private ObjectMapper objectMapper = new ObjectMapper();
+    private final tools.jackson.databind.ObjectMapper objectMapper = new ObjectMapper();
 
     @Test
     public void testScopes() throws Exception {

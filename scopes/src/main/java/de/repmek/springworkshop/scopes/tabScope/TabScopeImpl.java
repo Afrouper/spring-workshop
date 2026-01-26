@@ -1,8 +1,8 @@
 package de.repmek.springworkshop.scopes.tabScope;
 
 import jakarta.servlet.http.HttpServletRequest;
+import org.jspecify.annotations.Nullable;
 import org.springframework.beans.factory.ObjectFactory;
-import org.springframework.lang.Nullable;
 import org.springframework.web.context.request.SessionScope;
 
 import java.net.URLEncoder;
